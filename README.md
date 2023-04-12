@@ -52,5 +52,5 @@ Feel free to pull requests to add more papers! You can also contact me at chacha
 
 
 ## Three Core Concepts for Measuring Human Understanding
-![](decision_error_v1.pdf) 
+![Illustration of the three core concepts.](https://github.com/Chacha-Chen/Explanations-Human-Studies/blob/main/decision_error_v1.pdf) 
 We use a two-dimensional binary classification problem to illustrate the three concepts (Figure 1). Task decision boundary, as represented by the dashed line, defines the mapping from inputs to ground-truth labels: inputs on the left are positive and the ones on the right are negative. Model decision boundary, as represented by the solid line, determines model predictions. Consequently, the area between the two boundaries is where the model makes mistakes. This yellow highlighted background captures model error, i.e., where the model prediction is incorrect. With a perfect model, the model decision boundary would be an exact match of the task decision boundary, and model error is empty.
