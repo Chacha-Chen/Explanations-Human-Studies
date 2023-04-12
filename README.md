@@ -1,7 +1,7 @@
 # Machine Explanations Human Studies Literature Survey
 
 - This repository provides **a summarization of recent empirical studies/human studies that measure human understanding with machine explanations** in human-AI interactions.
-- We focused on **quantative measures**. Based on our survey, we idenfied three key concepts for measuring human understanding in human-AI decision making: model decision boundary (g), model error (z), and task decision boundary (f),
+- We focused on **quantative measures**. Based on our survey, we idenfied three key concepts for measuring human understanding in human-AI decision making: model decision boundary (g), model error (z), and task decision boundary (f). A short description of those three concepts are in the end. 
 - In the table, we show the title, AI models used, whether the model predictions were shown or hidden from participants, explanations, and if the study measured any aspects of g, z, or f. ✔️ (or ✖️) indicates that a study measures (or does not measure) a specific aspect of human understanding.
 - Papers are organized chronologically, with the most recent studies listed first. 
 
@@ -49,3 +49,8 @@ Feel free to pull requests to add more papers! You can also contact me at chacha
 | Ribeiro et al. "Why Should I Trust You?: Explaining the predictions of any classifier." (2016) | Support-vector machines; Inception neural network | Shown | Local feature importance (perturbation-based (LIME)) | :heavy_check_mark: | :heavy_multiplication_x: | :heavy_multiplication_x: |
 | Bussone et al. "The Role of Explanations on Trust and Reliance in Clinical Decision Support Systems" (2015) | Wizard of Oz | Shown | Model uncertainty (classification confidence (or probability)) | :heavy_multiplication_x: | :heavy_check_mark: | :heavy_multiplication_x: |
 | Lim et al. "Why and why not explanations improve the intelligibility of context-aware intelligent systems." (2009) | Decision trees/random forests | Shown | Rule-based explanations (tree-based explanation); Counterfactual explanations (counterfactual examples) | :heavy_check_mark: | :heavy_multiplication_x: | :heavy_multiplication_x: |
+
+
+## Three Core Concepts for Measuring Human Understanding
+![](decision_error_v1.pdf) 
+We use a two-dimensional binary classification problem to illustrate the three concepts (Figure 1). Task decision boundary, as represented by the dashed line, defines the mapping from inputs to ground-truth labels: inputs on the left are positive and the ones on the right are negative. Model decision boundary, as represented by the solid line, determines model predictions. Consequently, the area between the two boundaries is where the model makes mistakes. This yellow highlighted background captures model error, i.e., where the model prediction is incorrect. With a perfect model, the model decision boundary would be an exact match of the task decision boundary, and model error is empty.
