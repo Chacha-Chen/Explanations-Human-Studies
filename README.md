@@ -9,7 +9,7 @@
 - Check our [paper](https://arxiv.org/abs/2202.04092) for more details:sunglasses:! Based on the survey, we proposed a cool theoretical framework to describe the relationship between machine explanations and human understanding, which could be helpful for future works.
 
 ---
-Feel free to pull requests to add more papers! You can also contact me at chacha@uchicago.edu :beers:
+✨ Feel free to pull requests to add more papers! You can also contact me at chacha@uchicago.edu :beers:
 
 
 | Paper (Year)                                                    | Model                                                                      | Prediction | Explanations                                                                                                                                                                                                                                                                                             | g     | z     | f     |
